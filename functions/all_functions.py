@@ -125,7 +125,7 @@ def run(input_text, path):
         template = ChatPromptTemplate([
             ("system", "Du är ett datorprogram som svarar på frågor utifrån detta material: {docs_content}"),
             ("human", "Rekommendera max tre KVÅ koder till denna anteckning: {processed_input_text}"),
-            ("human", "svara i formatet: (namn på kod, kod, motivering), (namn på kod, kod, motivering)"),
+            ("human", "svara i formatet: (namn på kod, kod, motivering)\n(namn på kod, kod, motivering)\n"),
             ("human", "Vet du inte svaret så säg det"),
         ])
         prompt_value = template.invoke({"docs_content": docs_content, "processed_input_text": variable_storage.processed_input_text})
