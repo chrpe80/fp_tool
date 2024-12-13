@@ -1,0 +1,18 @@
+#container-svar {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+}
+
+h2 {
+    color: rgb(70, 70, 70);
+}
+
+p {
+    color: rgb(100, 100, 100);
+    text-align: justify;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    white-space: preserve-breaks;
+}

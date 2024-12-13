@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Svar</title>
+    <link rel="stylesheet" href="../static/svar.css">
+</head>
+<body>
+
+<div id="container-svar">
+    <h1>Resultat</h1>
+    <h2>Korrigerad text</h2>
+    <p>{{ response["text"] }}</p>
+    <h2>Rekommendation KVÅ</h2>
+    <p>{{ response["recommendation"].content }}</p>
+</div>
+
+</body>
+</html>
