@@ -29,7 +29,7 @@ It also returns the corrected text.
 * Pycharm
 
 # Testing
-All Python functions have been tested using the Python unittest library, and the website has been tested manually by me.
+All Python functions have been tested using the Python unittest library, and the website has been tested manually.
 
 # Future
 
