@@ -12,7 +12,7 @@ body {
     justify-content: space-between;
     padding: 40px;
     width: 40%;
-    border: 1px solid cornflowerblue;
+    border: 1px solid black;
     box-sizing: border-box;
 }
 
@@ -38,7 +38,7 @@ textarea {
     padding: 40px;
     box-sizing: border-box;
     resize: vertical;
-    border: 1px solid cornflowerblue;
+    border: 1px solid black;
 }
 
 #form-button {
@@ -52,4 +52,21 @@ textarea {
 #form-button:hover {
     background-color: black;
     cursor: pointer;
+}
+
+#warning {
+    color: red;
+    padding: 0;
+    text-decoration: underline;
+    background-color: white;
+}
+
+#warning:hover {
+    background-color: white;
+    cursor: pointer;
+    color: black;
+}
+
+h2 {
+    color: rgb(100, 100, 100)
 }

@@ -1,20 +1,27 @@
-#container-svar {
+body {
     display: flex;
-    flex-direction: column;
-    width: 50%;
-    margin: auto;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
 }
 
-h2 {
-    color: rgb(70, 70, 70);
+#warning {
+    width: 50%;
+    border: 1px solid black;
+    padding: 30px;
+}
+
+h1 {
+    color: red;
 }
 
 p {
-    color: rgb(100, 100, 100);
+    color: black;
     text-align: justify;
     letter-spacing: 2px;
     line-height: 1.5;
     white-space: preserve-breaks;
+    padding-bottom: 15px;
 }
 
 a {

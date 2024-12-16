@@ -34,6 +34,11 @@ def handle_button_press(identifier):
             return render_template("steg5_rubriker.html")
 
 
+@app.route('/warning')
+def warning():
+    return render_template("warning.html")
+
+
 
 if __name__ == '__main__':
     app.run()

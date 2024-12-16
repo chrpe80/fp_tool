@@ -1,3 +1,10 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
 h1 {
     color: black;
 }
@@ -16,4 +23,11 @@ h4 {
 
 p {
     color: rgb(100, 100, 100);
+}
+
+div {
+    width: 50%;
+    border: 1px solid black;
+    padding: 30px;
+    box-sizing: border-box;
 }
