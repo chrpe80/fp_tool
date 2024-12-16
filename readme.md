@@ -13,6 +13,7 @@ texts. I also wanted to get better at "förskrivnings-processen" as described by
 ## What the program does
 It takes a text as input, corrects spelling and grammar, divides it into paragraphs,
 and then it recommends a suitable KVÅ code based on the ["Åtgärdsregistrering inom arbetsterapi"](https://www.socialstyrelsen.se/globalassets/sharepoint-dokument/dokument-webb/klassifikationer-och-koder/kva-lathund-arbetsterapi.pdf).
+It also returns the corrected text.
 
 ## Tech
 
