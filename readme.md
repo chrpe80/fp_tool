@@ -18,11 +18,15 @@ It also returns the corrected text.
 ## Tech
 
 * Python
+* FLASK
 * Spacy
 * Sapling
 * Langchain
 * OpenAI (gpt-4o-mini, text-embedding-3-large)
 * Dotenv
+* HTML
+* CSS
+* Pycharm
 
 # Testing
 All Python functions have been tested using the Python unittest library, and the website has been tested manually by me.
