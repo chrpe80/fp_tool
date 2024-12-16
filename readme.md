@@ -33,5 +33,5 @@ All Python functions have been tested using the Python unittest library, and the
 
 # Future
 
-I am going to learn to finetune a model from Huggingface to reduce the cost of using the website.
+I am going to learn to finetune a model from Huggingface to reduce the cost of using the website. I will also look deeper into the security aspect of AI.
 
